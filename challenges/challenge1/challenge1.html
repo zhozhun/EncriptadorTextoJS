@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="challenge1.js"></script>
+    <link rel="stylesheet" href="challenge1.css">
+    <title>&#129497; Encriptador de texto</title>
+</head>
+
+<body>
+    <div class="contenedorPrincipal">
+        <div class="contenedorEncriptador">
+            <p class="tituloEncriptador"></p>
+            <form>
+                <label class="labelMensaje" for="mensaje">Mensaje:</label>
+                <input class="inputMensaje" type="text" id="mensaje" placeholder="Escribe tu mensaje aquí">
+                <!-- <textarea class="msgTextArea" name="" id="mensajeTextArea" placeholder="Escribe tu mensaje aquí"></textarea> -->
+
+                <label class="labelDesplazamiento" for="desplazamiento">Desplazamiento de caracteres:</label>
+                <input class="inputDesplazamiento" type="text" id="desplazamiento"
+                    placeholder="Escribe un número">
+
+                <button type="button" onclick="encriptar()">Encriptar</button>
+            </form>
+
+            <div id="resultado"></div>
+        </div>
+
+        <div class="contenedorImagen">
+            <div class="imagen">
+
+            </div>
+            <div class="textoImagen">
+                
+            </div>                    
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
